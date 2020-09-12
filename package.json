@@ -1,0 +1,28 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "This is a test directory to learn Git and Node",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amshashank/React-test.git"
+  },
+  "author": "Shashank Kesarwani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amshashank/React-test/issues"
+  },
+  "homepage": "https://github.com/amshashank/React-test#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "chokidar": "^2.0.3",
+    "resolve-url": "^0.2.1"
+  }
+}
