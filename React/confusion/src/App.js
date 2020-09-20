@@ -6,11 +6,15 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Navbar dark color = "primary">
+      <Navbar dark color="primary">
         <div className="container">
-          <NavbarBrand href="/">Ristorant Con Fusion</NavbarBrand>
+          <NavbarBrand href="/">S H A S H A N K</NavbarBrand>
         </div>
       </Navbar>
+      <br></br>
+      <p>
+        <b>Hi this is the new React App</b>
+      </p>
     </div>
   );
 }
